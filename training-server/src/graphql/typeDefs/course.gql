@@ -1,0 +1,19 @@
+type Course {
+    id: ID
+    name: String
+}
+
+input CourseInput {
+    id: ID
+    name: String
+}
+
+input CourseRecordInput {
+    id: ID
+    name: String
+}
+
+type CourseOutput {
+    count: Int
+    data: [Course]
+}

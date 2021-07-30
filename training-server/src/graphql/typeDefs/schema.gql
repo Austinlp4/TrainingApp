@@ -1,0 +1,10 @@
+# import User from 'user.gql'
+# import Role from 'role.gql'
+# import Course from 'course.gql'
+
+type Query {
+    user(query: UserInput): UserOutput
+    role(query: RoleInput): RoleOutput
+    course(query: CourseInput): CourseOutput
+}
+

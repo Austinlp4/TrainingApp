@@ -1,0 +1,21 @@
+type User {
+    id: ID
+    serial: String
+    firstName: String
+    lastName: String
+    roles: [Role]
+}
+input UserInput {
+    id: ID
+    serial: String
+    firstName: String
+    lastName: String
+}
+input UserRecordInput {
+    id: ID
+    serial: String
+}
+type UserOutput {
+    count: Int
+    data: [User]
+}
